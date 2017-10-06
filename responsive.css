@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+svg{
+transform: rotate(45deg);
+position: absolute;
+top:433px;
+left: 91.7%;
+z-index: 999;
+}
+svg:hover{
+transform: rotate(765deg);
+transition: 1.5s;
+transition-timing-function: ease;
+}
+.ExpList{
+    font-size: 22px;
+}
+.years{
+            color: #fd431f;
+            font-size: 38px;
+        }
+.ExpP p {
+           color: #900000; 
+        line-height: 1.64285714;
+        }
+.ExpP h4 {
+	color: #777777;
+}
+a[class*='fa-'] {
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    padding-top: 9px;
+    color: #3f3f3f;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+    text-decoration: none;
+}
+a[class*='fa-']:hover{
+    color: red;
+    background-color: #3f3f3f;
+}
+h1[class*='fa']:hover{
+    cursor: pointer;
+}
+.LatestHead {
+    color: #df9e5d;
+	border-bottom: 3px solid #626262;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.LatestP {
+	    line-height: 24px;
+}
+.Footer{
+    text-align: center;
+    height: 80px;
+    margin-top: 10px;
+}
+.fa-dollar {
+	color: #df9e5d;
+    margin-right: 5px;
+}
+.fa-briefcase {
+	color: #40ACFF;
+    margin-right: 5px;
+}
+@media only screen and (max-width: 992px) {
+     .Footer{
+        height: 50px;
+        margin-top: 20px;
+    },
+    address{
+        height: 30px;
+        padding-top: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+     .Footer{
+        height: 50px;
+        margin-top: 0;
+    },
+         address{
+        height: 30px;
+        margin-top: 20px;
+    },
+
+}
+/*@media only screen and (max-width: 992px) {
+     address{
+        height: 30px;
+        padding-top: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+     address{
+        height: 30px;
+        margin-top: 20px;
+    }
+}*/
+@media only screen and (max-width: 600px) {
+     address{
+        height: 50px;
+        padding-top: 0;
+         margin-top: 5px;
+    }
+}
